@@ -14,3 +14,5 @@ RUN touch /home/jenkins/inventory
 RUN mkdir /home/jenkins/.ssh
 RUN chmod 700 /home/jenkins/.ssh
 RUN touch /home/jenkins/.ssh/id_rsa
+
+RUN mkdir -p /var/jenkins_home/workspace
