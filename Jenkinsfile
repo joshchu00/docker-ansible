@@ -1,11 +1,12 @@
 @Library("library") _
 
-build {
+jBuild {
   [
     gitURL = 'https://github.com/joshchu00/docker-ansible.git',
     gitBranch = 'master',
     buildLanguage = '',
     buildImage = '',
-    dockerName = 'joshchu00/ansible:latest-alpine'
+    dockerName = 'joshchu00/ansible:latest-alpine',
+    downstreamJob = ''
   ]
 }
